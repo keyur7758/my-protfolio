@@ -34,6 +34,14 @@
 
     .slider-area {
         margin-left: 0;
+    }.firstsection {
+        margin-top:50px;
+    }.leftsection {
+        font-size: 30px;
+    }.leftsection .btn {
+        padding: 5px;
+    }.thin-line {
+        margin: 50px 0px;
     }
 
 }
@@ -41,7 +49,17 @@
 @media(max-width:768px) {
     .navbar-area-2 .img {
         text-align: center;
+    }.firstsection {
+        margin-top:50px;
+    }.my-card .content-1 .img {
+        height: 223px;
+        width: 100%;
+        height: 100%;
+    }.vc-area {
+        color: grey;
+        padding: 2%;
     }
+
 }
 
 @media(max-width:500px) {

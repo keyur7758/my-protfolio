@@ -10,13 +10,16 @@
 }
 
 body {
-  background-color: white;
+  background-color: #fff;
 
-  color: white;
+  color: #a5a5a5;
   font-family: 'Poppins', sans-serif;
   text-transform: capitalize;
 }
 
+body,ul,li,a,h1,h2,h3,h4,h5,h6{
+  margin: 0;padding: 0;
+}
 
 .navbar-area-2 {
   padding: 5px 0px;
@@ -24,7 +27,7 @@ body {
 
 .navbar-area-2 h1 {
   font-family: "Cinzel";
-  color: white;
+  color: #a5a5a5;
 }
 
 .navbar-area-2 a {
@@ -42,7 +45,7 @@ body {
 }
 
 .lg {
-  background-color: rgb(111 54 166);
+  background-color: #17264f
 }
 
 .cl-mode {
@@ -54,7 +57,7 @@ body {
 }
 
 .gg {
-  color: white;
+  color: #a5a5a5;
   font-size: 20px;
   padding: 10px;
 }
@@ -80,7 +83,7 @@ body {
 }
 
 .navbar-area ul li a {
-  color: white;
+  color: #a5a5a5;
   font-size: 18px;
   padding: 0px 25px;
 
@@ -92,7 +95,7 @@ body {
 
 .navbar-brand {
   font-family: 'Cinzel';
-  color: white;
+  color: #a5a5a5;
   font-size: 30px;
 }
 
@@ -142,11 +145,11 @@ body {
 }
 
 .leftsection .purple {
-  color: rgb(111 54 166);
+  color:#04364A;
 }
 
 #element {
-  color:rgb(111 54 166);
+  color:#04364A;
 }
 
 .leftsection .btn {
@@ -160,8 +163,8 @@ body {
 }
 
 .leftsection .btn:hover {
-  background-color: rgb(179, 106, 248);
-  color: black;
+  background-color:#17264f;
+  color: #fff !important;
   font-family: 'Poppins';
   transition: all ease 0.3s;
   transform: scale(0.97);
@@ -187,7 +190,7 @@ body {
 .information .box .ff {
   font-size: 25px;
   margin-top: 30px;
-  color: rgb(111 54 166);
+  color: #04364A;
   opacity: 0.90;
 }
 .information .box .ff:hover{
@@ -218,8 +221,8 @@ body {
 }
 
 .promotion .img .btn {
-  border: 2px solid rgb(179, 106, 248);
-  color: rgb(179, 106, 248);
+  border:  #17264f;
+  color:  #17264f;
   margin: 10px 0px 0px 34px;
 
 
@@ -233,7 +236,7 @@ body {
 
 .thin-line {
   margin: 145px 0px 100px 0px;
-  background: rgb(111 54 166);
+  background: #17264f;
 }
 
 .thin-line .box {
@@ -243,30 +246,26 @@ body {
 .thin-line .box h4 {
   font-size: 40px;
   padding: 20px;
-  color: white;
+  color: #a5a5a5 !important;
 }
 
-.gallery-1 {
-  margin-bottom: 100px;
-}
+
 
 .gallery-1 .box {
-  box-shadow: 0px 0px 5px black;
-  color: black;
-  background: red;
+  color: white;
   min-height: 350px;
   border-radius: 30px;
   margin-bottom: 50px;
-}
-
-.gallery-1 .box:hover {
-  transition: all ease 0.3s;
-  transform: scale(1.1);
+  transition: all ease 0.5s;
 
 }
+/* .gallery-1 .box:hover {
+  transform: scale(0.1);
+
+} */
 
 .gallery-1 h4 {
-  color: white;
+  color: #a5a5a5;
   font-size: 30px;
   font-weight: bolder;
   padding: 30px;
@@ -274,47 +273,15 @@ body {
 }
 
 .gallery-1 h6 {
-  color: white;
+  color: #a5a5a5;
   padding: 30px;
 }
-
-.gallery-1 .gc-1 {
-  background-color: #f9b234;
-
-}
-
-.gallery-1 .gc-2 {
-  background-color: #3ecd5e;
-
-}
-
-.gallery-1 .gc-3 {
-  background-color: #e44002;
-
-}
-
-.gallery-1 .gc-4 {
-  background-color: #952aff;
-
-}
-
-.gallery-1 .gc-5 {
-  background-color: #cd3e94;
-
-}
-
-.gallery-1 .gc-6 {
-  background-color: #4c49ea;
-
-}
-
 
 
 
 .vc-area {
   color: grey;
   padding: 60px;
-  margin-bottom: 100px;
 }
 
 .vc-area .box p {
@@ -337,8 +304,8 @@ body {
 }
 
 .vc-area .btn {
-  color: white;
-  border: 1px solid white;
+  color: #a5a5a5;
+  border: 1px solid #a5a5a5;
   padding: 10px;
   font-weight: inherit;
   margin-left: 20px;
@@ -357,7 +324,7 @@ body {
 
 .my-card .content-1 {
   margin-bottom: 20px;
-  background: rgb(111 54 166);
+  background:  #17264f;
   display: flex;
   padding: 5px 15px;
   border-radius: 10px;
@@ -365,7 +332,7 @@ body {
 }
 
 .my-card .content-1 .img {
-  background: rgb(111 54 166);
+  background:  #17264f;
   height: 223px;
   width: 80%;
   padding: 3px;
@@ -377,7 +344,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  border: 3px solid white;
+  border: 3px solid #a5a5a5;
   object-fit: cover;
 
 }
@@ -404,11 +371,11 @@ body {
 }
 
 .my-card .content-1 .card-btn {
-  background-color: rgb(111 54 166);
+  background-color:  #17264f;
 
-  color: white;
+  color: #a5a5a5;
   padding: 8px 10px;
-  border: 1px solid white;
+  border: 1px solid #a5a5a5;
   border-radius: 8px;
 }
 
@@ -424,14 +391,14 @@ body {
 
 .my-card .content-1 .ff-icon:hover {
   opacity: 1;
-  color: white;
+  color: #a5a5a5;
   cursor: pointer;
 
 }
 
 .my-card .card-btn:hover {
-  background-color: white;
-  color: rgb(111 54 166);
+  background-color: #a5a5a5;
+  color:  #17264f;
   transform: scale(0.97);
 }
 
@@ -498,4 +465,7 @@ body {
 
 .hover-up-button:hover {
   transform: translateY(-10px); /* Move the button 10px up */
+}
+.gallery-1 .card{
+  width:100% !important;
 }
