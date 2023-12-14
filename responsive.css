@@ -63,12 +63,8 @@
 }
 
 @media(max-width:500px) {
-    .my-card .content-1 {
-        display: block;
-    }
-
-    .my-card .content-1 img {
-        max-width: 50%;
+    .vc-area .box p {
+        font-size: 14px;
     }
   
 }

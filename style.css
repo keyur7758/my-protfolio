@@ -12,13 +12,23 @@
 body {
   background-color: #fff;
 
-  color: #a5a5a5;
+  color: #c0c0c0;
   font-family: 'Poppins', sans-serif;
   text-transform: capitalize;
 }
 
-body,ul,li,a,h1,h2,h3,h4,h5,h6{
-  margin: 0;padding: 0;
+body,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-area-2 {
@@ -27,7 +37,7 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 
 .navbar-area-2 h1 {
   font-family: "Cinzel";
-  color: #a5a5a5;
+  color: #c0c0c0;
 }
 
 .navbar-area-2 a {
@@ -54,9 +64,12 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 }
 
 .gg {
-  color: #a5a5a5;
+  color: #c0c0c0;
   font-size: 20px;
   padding: 10px;
+}
+.gg:hover{
+  color: #fff;
 }
 
 .navbar-brand img {
@@ -80,7 +93,7 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 }
 
 .navbar-area ul li a {
-  color: #a5a5a5;
+  color: #c0c0c0;
   font-size: 18px;
   padding: 0px 25px;
 
@@ -92,7 +105,7 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 
 .navbar-brand {
   font-family: 'Cinzel';
-  color: #a5a5a5;
+  color: #c0c0c0;
   font-size: 30px;
 }
 
@@ -142,16 +155,16 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 }
 
 .leftsection .purple {
-  color:#04364A;
+  color: #04364A;
 }
 
 #element {
-  color:#04364A;
+  color: #04364A;
 }
 
 .leftsection .btn {
-  border: 1px solid black;
-  color: black;
+  border: 1px solid #17264f;
+  color: #17264f;
 
   padding: 10px;
   font-weight: inherit;
@@ -160,11 +173,20 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 }
 
 .leftsection .btn:hover {
-  background-color:#17264f;
+  background-color: #17264f;
   color: #fff !important;
   font-family: 'Poppins';
   transition: all ease 0.3s;
   transform: scale(0.97);
+}
+
+.leftsection .btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.leftsection .btn a:hover {
+  color: #fff;
 }
 
 .information {
@@ -190,15 +212,16 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
   color: #04364A;
   opacity: 0.90;
 }
-.information .box .ff:hover{
-  
+
+.information .box .ff:hover {
+
   opacity: 1;
 }
 
 .information .box h6 {
   margin: 20px 0px 20px 0px;
   font-weight: inherit;
-  color: #888889;
+  color: #17264f;
 }
 
 .promotion h1 {
@@ -218,8 +241,8 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 }
 
 .promotion .img .btn {
-  border:  #17264f;
-  color:  #17264f;
+  border: #17264f;
+  color: #17264f;
   margin: 10px 0px 0px 34px;
 
 
@@ -241,28 +264,29 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 }
 
 .thin-line .box h4 {
+  font-family: "Cinzel";
   font-size: 40px;
   padding: 20px;
-  color: #a5a5a5 !important;
+  color: #c0c0c0 !important;
 }
 
 
 
 .gallery-1 .box {
   color: white;
-  min-height: 350px;
   border-radius: 30px;
   margin-bottom: 50px;
   transition: all ease 0.5s;
 
 }
+
 /* .gallery-1 .box:hover {
   transform: scale(0.1);
 
 } */
 
 .gallery-1 h4 {
-  color: #a5a5a5;
+  color: #c0c0c0;
   font-size: 30px;
   font-weight: bolder;
   padding: 30px;
@@ -270,15 +294,17 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 }
 
 .gallery-1 h6 {
-  color: #a5a5a5;
+  color: #c0c0c0;
   padding: 30px;
 }
 
+.gallery-1 .card {
+  min-height: 360px;
+}
 
 
 .vc-area {
   color: grey;
-  padding: 60px;
 }
 
 .vc-area .box p {
@@ -301,8 +327,8 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 }
 
 .vc-area .btn {
-  color: #a5a5a5;
-  border: 1px solid #a5a5a5;
+  color: #c0c0c0;
+  border: 1px solid #c0c0c0;
   padding: 10px;
   font-weight: inherit;
   margin-left: 20px;
@@ -321,18 +347,17 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 
 .my-card .content-1 {
   margin-bottom: 20px;
-  background:  #17264f;
-  display: flex;
   padding: 5px 15px;
   border-radius: 10px;
   align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .my-card .content-1 .img {
-  background:  #17264f;
-  height: 223px;
-  width: 80%;
-  padding: 3px;
+  background: #17264f;
+  width: 30%;
+  padding: 6px;
   border-radius: 12px;
 }
 
@@ -341,18 +366,21 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  border: 3px solid #a5a5a5;
+  border: 2px solid #c0c0c0;
   object-fit: cover;
 
 }
 
-
+section.my-card {
+  text-align: center;
+}
 .my-card .content-1 .card-info {
   margin-left: 20px;
 }
 
-.my-card .content-1 h4 {
-  margin-top: 30px;
+.my-card h4 {
+  color: #17264f;
+  margin-bottom: 30px;
   font-weight: 600;
 }
 
@@ -368,11 +396,11 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 }
 
 .my-card .content-1 .card-btn {
-  background-color:  #17264f;
+  background-color: #17264f;
 
-  color: #a5a5a5;
+  color: #c0c0c0;
   padding: 8px 10px;
-  border: 1px solid #a5a5a5;
+  border: 1px solid #c0c0c0;
   border-radius: 8px;
 }
 
@@ -388,14 +416,14 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 
 .my-card .content-1 .ff-icon:hover {
   opacity: 1;
-  color: #a5a5a5;
+  color: #c0c0c0;
   cursor: pointer;
 
 }
 
 .my-card .card-btn:hover {
-  background-color: #a5a5a5;
-  color:  #17264f;
+  background-color: #c0c0c0;
+  color: #17264f;
   transform: scale(0.97);
 }
 
@@ -410,6 +438,8 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 
 .second-head h1 {
   color: black;
+  font-family: 'Cinzel';
+  font-weight: 600;
 }
 
 .second-head p {
@@ -419,7 +449,7 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 }
 
 .footer-area {
-  background: #121212;
+  background: #17264f;
 }
 
 .footer-area h1 {
@@ -455,14 +485,42 @@ body,ul,li,a,h1,h2,h3,h4,h5,h6{
 .footer-area .brr {
   border-left: 1px solid #565353;
 }
+
 .hover-up-button {
-  padding: 10px 20px; /* Add padding to create space around the button */
-  transition: transform 0.3s ease; /* Add smooth transition for animation */
+  padding: 10px 20px;
+  transition: transform 0.3s ease;
 }
 
 .hover-up-button:hover {
-  transform: translateY(-10px); /* Move the button 10px up */
+  transform: translateY(-10px);
 }
-.gallery-1 .card{
-  width:100% !important;
+
+.gallery-1 .card {
+  width: 100% !important;
+  border: none;
+ transition: 0.25s ease;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.gallery-1 .card:hover{
+  transform: translate(0px, -10px)
+}
+
+.gallery-1 .card .btn-project {
+  /* background-color: #17264f; */
+  /* color: #fff; */
+  border: 1px solid #17264f;
+  color: #17264f;
+}
+.gallery-1 .card .btn-project:hover{
+  background-color: #17264f;
+   color: #fff;
+ 
+}
+.title-about {
+  color: rgb(23, 38, 79);
+  margin-bottom: 20px;
+  font-family: 'Cinzel';
+  font-weight: 600;
 }
